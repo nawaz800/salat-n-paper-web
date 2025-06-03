@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+*{
+
+margin: 0% ;
+padding: 0% ;
+box-sizing: border-box ;
+background-color: black;
+flex-wrap: wrap;
+}
+html {
+    font-size:62.5%
+}
+
+.parent{
+color: white;
+display: flex ;
+justify-content: space-around;
+align-items: center ;
+gap: 15px ;
+
+
+}
+.link{
+color: white;
+font-size: 14px;
+font-weight: 400px;
+text-decoration: none;
+margin-left: 20px;
+font-size: 1.7rem;
+}
+.button1 {
+color: white ;
+margin-left: 15px ;
+border-radius: 100px ;
+padding: 12px ;
+border: 2px solid white;
+}.button2 {
+color: white;
+border: 2px solid red ;
+margin-left: 15px;
+border-radius: 30px ;
+padding: 15px;
+background-color: red;
+}
+.Text {
+color: white;
+text-align: center ;
+margin: 40px ;
+
+}
+@font-face{
+font-family: futurak;
+src: url(./futurablack-bt\ \(4\).zip);
+
+}
+.futurak {
+    font-size: 2rem;
+
+
+
+}
